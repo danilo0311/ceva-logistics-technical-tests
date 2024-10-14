@@ -1,0 +1,12 @@
+services:
+  mongoDB:
+    image: 'mongo:latest'
+    container_name: 'mongodb-test-community-database'
+    restart: "unless-stopped"
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: 'root'
+      ME_CONFIG_MONGODB_ADMINPASSWORD: 'example'

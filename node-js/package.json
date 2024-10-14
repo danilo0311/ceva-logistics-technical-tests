@@ -1,0 +1,18 @@
+{
+	"scripts": {
+		"test": "jest",
+		"one": "node ./app/e-one.js",
+		"two": "node ./app/e-two.js",
+		"three": "npx tsc ./app/e-three.ts && node ./app/e-three.js"
+	},
+	"type": "commonjs",
+	"dependencies": {
+		"got": "^14.4.3",
+		"typescript": "^5.6.3"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.25.7",
+		"@babel/preset-typescript": "^7.25.7",
+		"jest": "^29.7.0"
+	}
+}
