@@ -6,7 +6,7 @@ Howerver you still have to run node tests locally
 
 # Angular
 
-https://www.ceva.logistics.tests.daniloarancibia.es
+https://www.cevalogistics.tests.daniloarancibia.es
 
 # MongoDB
 
